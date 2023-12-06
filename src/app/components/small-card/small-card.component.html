@@ -1,9 +1,8 @@
 <div class="container">
-  <img src="https://miro.medium.com/v2/resize:fit:1400/1*f-x4UQvG4HnuEBnO6vZ7dQ.png" alt=""
-  width="200px">
+  <img src="{{ photo }}" alt="" width="200px" />
   <div class="author">
-    <span>Grimley</span>
-    <a href="#">Título do meu artigo para o blog, clique e entre la na matéria</a>
+    <span>{{ cardAuthor }}</span>
+    <a routerLink="['content', Id]" >{{ cardTitle }}</a>
   </div>
-  <hr>
+  <hr />
 </div>
